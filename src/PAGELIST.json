@@ -1,0 +1,22 @@
+[
+    {
+        "title": "services",
+        "content": "overview the services we provide, check out their quality and price",
+        "linkHref": "/services"
+    },
+    {
+        "title": "projects",
+        "content": "take a look at the projects we have published, check out their quality",
+        "linkHref": "/projects"
+    },
+    {
+        "title": "about",
+        "content": "learn more about our company, read about who we are and what we care about",
+        "linkHref": "/about"
+    },
+    {
+        "title": "contact",
+        "content": "want to reach out? see where you can find us, you can also call us, or email us",
+        "linkHref": "/contact"
+    }
+]
