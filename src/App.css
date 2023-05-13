@@ -87,7 +87,7 @@ header{
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  background: linear-gradient(205.96deg, rgba(67, 26, 26, 0) -7.14%, #431A1A 121.86%), url('heroImage.png');
+  background: linear-gradient(205.96deg, rgba(67, 26, 26, 0) -7.14%, #431A1A 121.86%), url('/heroImage.png');
   background-size: cover;
   background-position: center;
   background-position-y: 15px;
