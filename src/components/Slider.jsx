@@ -26,7 +26,9 @@ const Slider = () => {
       </div>
 
       <div className="flex justify-between pr-20 items-center">
-        <h2 className="font-montserrat font-bold text-4xl leading-10 pt-[90px] pb-[90px]">NEWS</h2>
+        <h2 className="font-montserrat font-bold text-4xl leading-10 pt-[90px] pb-[90px]">
+          NEWS
+        </h2>
         <div className="flex space-x-4 ctrl_buttons">
           <motion.button
             onClick={handleNextButtonClick}
@@ -34,8 +36,8 @@ const Slider = () => {
               opacity: disabledButton < 2 ? 0.2 : 1,
             }}
             disabled={disabledButton < 2}
-            initial={{ x: 200  }}
-            animate={{ x:0,  transition: { delay: 0.5 } }}
+            initial={{ x: 200 }}
+            animate={{ x: 0, transition: { delay: 0.5 } }}
             whileHover={{ scale: 1.1 }}
           >
             <img src="right.svg" alt="arrow controller" />
@@ -46,8 +48,8 @@ const Slider = () => {
               opacity: disabledButton > 3 ? 0.2 : 1,
             }}
             disabled={disabledButton > 3}
-            initial={{ x: 200  }}
-            animate={{ x:0,  transition: { delay: 0.5 } }}
+            initial={{ x: 200 }}
+            animate={{ x: 0, transition: { delay: 0.5 } }}
             whileHover={{ scale: 1.1 }}
           >
             <img src="left.svg" alt="arrow controller" />

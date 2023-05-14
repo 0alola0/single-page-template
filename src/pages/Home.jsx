@@ -3,20 +3,23 @@ import { About, Footer, Header, Services, Slider } from "../components";
 
 const Home = () => {
   return (
-    <> 
-       <Helmet>
+    <>
+      <Helmet>
         <title>Home Page</title>
-        <meta name="description" content="check out information about our company and services here"/>
-        <link rel="canonical" href="/home"/>
-       </Helmet>
+        <meta
+          name="description"
+          content="check out information about our company and services here"
+        />
+        <link rel="canonical" href="/home" />
+      </Helmet>
 
-       <Header/>
-       <Services/>
-       <Slider/>
-       <About/>
-       <Footer/>
+      <Header />
+      <Services />
+      <Slider />
+      <About />
+      <Footer />
     </>
   );
-}
+};
 
 export default Home;

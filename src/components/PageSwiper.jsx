@@ -36,8 +36,6 @@ const PageSwiper = () => {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
       }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
       ref={swiperRef}
     >
 {
