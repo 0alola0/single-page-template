@@ -5,7 +5,7 @@ import PAGELIST from "../PAGELIST.json";
 import { motion, AnimatePresence } from "framer-motion";
 
 const NavigationDesktop = () => {
-  const [navOpen, setNavOpen] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
   const navRef = useRef();
 
   const showNav = () => {
@@ -25,10 +25,10 @@ const NavigationDesktop = () => {
       <AnimatePresence>
         <motion.nav
           animate={{
-            opacity: navOpen ? 1 : 0,
+            opacity: navOpen||!navRef.current?.classList.contains('mobile_nav') ? 1 : 0,
           }}
           initial={{
-            opacity: 0,
+            opacity: !navRef.current?.classList.contains('mobile_nav')? 1 : 0,
           }}
           transition={{ duration: 0.5 }}
           ref={navRef}
