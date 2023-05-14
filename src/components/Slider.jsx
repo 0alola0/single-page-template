@@ -9,12 +9,10 @@ const Slider = () => {
   const handleNextButtonClick = () => {
     prevButtonRef.current.click();
     setDisabledButton(disabledButton - 1);
-    console.log(disabledButton);
   };
   const handlePrevButtonClick = () => {
     nextButtonRef.current.click();
     setDisabledButton(disabledButton + 1);
-    console.log(disabledButton);
   };
   return (
     <section className=" bg-gray-100 lg:pl-[250px] mt-32 md:pl-[100px] sm:pl-[40px] pl-[40px] ">
