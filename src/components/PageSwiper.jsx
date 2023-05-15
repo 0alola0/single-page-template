@@ -51,7 +51,7 @@ const PageSwiper = () => {
       }}
     >
       <div className="absolute inset-0" style={{backgroundImage: "linear-gradient(205.96deg, rgba(67, 26, 26, 0) -7.14%, #431A1A 121.86%)"}}></div>
-      <h4 className="z-2 font-montserrat font-bold text-2xl md:text-2xl sm:text-base mr-5" style={{zIndex: 2}}>{slide.title}</h4>
+      <h3 className="z-2 font-montserrat font-bold text-2xl md:text-2xl sm:text-base mr-5" style={{zIndex: 2}}>{slide.title}</h3>
       <p className='opacity-80 font-medium text-sm leading-5 my-4' style={{zIndex: 2}}>{slide.date}</p>
       <motion.button
         className='main-btn'

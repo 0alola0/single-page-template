@@ -9,7 +9,7 @@ const Footer = () => {
       <div>
         <ul className="flex flex-wrap gap-5 text-white my-0 mb-8">
           <li>
-            Services <img className="mt-5" src="socials.svg" alt="" />
+            Services <img className="mt-5" src="socials.svg" alt="social networks" />
           </li>
           <li>Projects</li>
           <li>About</li>

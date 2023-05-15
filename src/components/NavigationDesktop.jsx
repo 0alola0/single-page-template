@@ -81,7 +81,7 @@ const NavigationDesktop = () => {
           className="nav_btn"
           onClick={showNav}
         >
-          <img className="nav_btn_img" src="menuOpen.svg" alt="" />
+          <img className="nav_btn_img" src="menuOpen.svg" alt="hamburger menu" />
         </motion.button>
       )}
     </motion.div>
