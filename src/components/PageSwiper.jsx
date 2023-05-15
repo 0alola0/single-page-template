@@ -75,32 +75,32 @@ const PageSwiper = () => {
 
 const CONTENTS = [
     {
-        "image": "slide1.jpg",
+        "image": "slide1.webp",
         "title": "The point of using Lorem Ipsum",
         "date": "20 April 2023",
     },
     {
-        "image": "slide2.jpg",
+        "image": "slide2.webp",
         "title": "The point of using Lorem Ipsum",
         "date": "21 April 2023",
     },
     {
-        "image": "slide3.jpg",
+        "image": "slide3.webp",
         "title": "The point of using Lorem Ipsum",
         "date": "22 April 2023",
     },
     {
-        "image": "slide4.jpg",
+        "image": "slide4.webp",
         "title": "The point of using Lorem Ipsum",
         "date": "23 April 2023",
     },
     {
-        "image": "slide5.jpg",
+        "image": "slide5.webp",
         "title": "The point of using Lorem Ipsum",
         "date": "24 April 2023",
     },
     {
-        "image": "slide6.jpg",
+        "image": "slide6.webp",
         "title": "The point of using Lorem Ipsum",
         "date": "25 April 2023",
     },

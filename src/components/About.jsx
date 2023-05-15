@@ -20,7 +20,7 @@ const About = () => {
           className="flex flex-col md:flex-row items-center justify-start lg:pl-[250px] mt-32 md:px-[100px] sm:px-[40px] px-[40px]"
         >
           <div className="w-full flex items-center flex-col md:w-auto md:max-w-[50%] object-cover mb-8 md:mb-0">
-            <img src="astronaut.jpg" alt="about us comany image" />
+            <img src="astronaut.webp" alt="about us comany image" />
             <span className="block w-[96%] h-2 border-t-0 border-b border-l border-r border-solid border-gray-700 bg-transparent"></span>
           </div>
 
