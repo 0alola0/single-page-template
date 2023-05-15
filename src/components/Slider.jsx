@@ -17,10 +17,10 @@ const Slider = () => {
   return (
     <section className=" bg-gray-100 lg:pl-[250px] mt-32 md:pl-[100px] sm:pl-[40px] pl-[40px] ">
       <div className="swiper-button-prev">
-        <button className="swiper-button-prev-icon" ref={prevButtonRef} />
+        <button aria-label="Previus" className="swiper-button-prev-icon" ref={prevButtonRef} />
       </div>
       <div className="swiper-button-next">
-        <button className="swiper-button-next-icon" ref={nextButtonRef} />
+        <button aria-label="Next" className="swiper-button-next-icon" ref={nextButtonRef} />
       </div>
 
       <div className="flex justify-between pr-20 items-center">
@@ -37,7 +37,7 @@ const Slider = () => {
             initial={{ x: 200 }}
             animate={{ x: 0, transition: { delay: 0.5 } }}
             whileHover={{ scale: 1.1 }}
-            aria-label="Next"
+            aria-label="Previus"
           >
             <img src="right.svg" alt="arrow controller" />
           </motion.button>
