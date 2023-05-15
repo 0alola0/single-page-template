@@ -10,7 +10,7 @@ const Home = () => {
           name="description"
           content="check out information about our company and services here"
         />
-        <link rel="canonical" href="/home" />
+        <link rel="canonical" href="https://single-page-template.vercel.app/home" />
       </Helmet>
 
       <Header />
