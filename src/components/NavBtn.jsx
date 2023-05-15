@@ -26,6 +26,7 @@ const NavBtn = ({ pageName, activeBase }) => {
       className="nav_link_btn"
       onMouseEnter={handleHoverOn}
       onMouseLeave={handleHoverOff}
+      aria-label="Go To Page"
     >
       {pageName}
       <span style={underline} className="underline"></span>

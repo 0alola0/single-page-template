@@ -35,7 +35,7 @@ const Footer = () => {
             placeholder="Text"
             className="bg-transparent border-none opacity-0.2 self-start"
           />
-          <button className="w-[74px] h-[42px] bg-red-500 text-white rounded-[8px] self-end">
+          <button className="w-[74px] h-[42px] bg-red-500 text-white rounded-[8px] self-end"  aria-label="Submit">
             Send
           </button>
         </div>

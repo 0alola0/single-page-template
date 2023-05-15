@@ -19,6 +19,7 @@ const Header = () => {
             initial={{ y: 0 }}
             transition={{ duration: 0.7 }}
             whileHover={{ scale: 1.1 }}
+            aria-label="See More"
           >
             See More
             <img src="arrow.svg" alt="arrow right"></img>

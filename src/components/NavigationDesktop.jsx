@@ -63,6 +63,7 @@ const NavigationDesktop = () => {
           transition={{ duration: 0.5 }}
           className="nav_btn"
           onClick={showNav}
+          aria-label="Open Menu"
         >
           <img
             className="nav_btn_img"
@@ -79,6 +80,7 @@ const NavigationDesktop = () => {
           }}
           transition={{ duration: 0.5 }}
           className="nav_btn"
+          aria-label="Close Menu"
           onClick={showNav}
         >
           <img className="nav_btn_img" src="menuOpen.svg" alt="hamburger menu" />

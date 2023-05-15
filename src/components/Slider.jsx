@@ -37,6 +37,7 @@ const Slider = () => {
             initial={{ x: 200 }}
             animate={{ x: 0, transition: { delay: 0.5 } }}
             whileHover={{ scale: 1.1 }}
+            aria-label="Next"
           >
             <img src="right.svg" alt="arrow controller" />
           </motion.button>
@@ -49,6 +50,7 @@ const Slider = () => {
             initial={{ x: 200 }}
             animate={{ x: 0, transition: { delay: 0.5 } }}
             whileHover={{ scale: 1.1 }}
+            aria-label="Next"
           >
             <img src="left.svg" alt="arrow controller" />
           </motion.button>
