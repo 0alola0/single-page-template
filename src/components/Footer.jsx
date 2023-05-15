@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-wrap justify-between items-top bg-[#2B3252] py-28 lg:px-[250px] mt-32 md:px-[100px] sm:px-[40px] px-[40px]">
+    <footer className="flex flex-wrap justify-between items-top bg-[#2B3252] py-24 lg:px-[250px] md:px-[100px] sm:px-[40px] px-[40px]">
       <div className="mb-8">
         <img src="light-logo.svg" alt="company logo and copyright" />
       </div>

@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const Services = () => {
-  const [ref, inView = false] = useInView({ threshold: 0.2 }); // Set a threshold for intersection
+  const [ref, inView = false] = useInView(); 
 
   return (
-    <section className=" min-h-[365px] flex flex-col justify-around items-center mt-28 px-28">
+    <section ref={ref} className=" min-h-[365px] flex flex-col justify-around items-center mt-28 px-28">
       <motion.h2
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { delay: 2 } }}
@@ -17,7 +17,6 @@ const Services = () => {
       <div className="flex flex-row justify-center items-center xl:gap-56 lg:gap-32 flex-wrap">
         <AnimatePresence>
           <motion.div
-            ref={ref}
             initial={{ opacity: 0, y: -50 }}
             animate={{
               opacity: inView ? 1 : 0,
@@ -34,7 +33,6 @@ const Services = () => {
         </AnimatePresence>
         <AnimatePresence>
           <motion.div
-            ref={ref}
             initial={{ opacity: 0, y: -50 }}
             animate={{
               opacity: inView ? 1 : 0,
@@ -51,7 +49,6 @@ const Services = () => {
         </AnimatePresence>
         <AnimatePresence>
           <motion.div
-            ref={ref}
             initial={{ opacity: 0, y: -50 }}
             animate={{
               opacity: inView ? 1 : 0,

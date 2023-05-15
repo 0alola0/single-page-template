@@ -219,6 +219,9 @@ h1{
     flex-direction: column;
     gap: 20px;
   }
+  h1{
+    line-height: 50px;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .ctrl_buttons{
@@ -249,5 +252,8 @@ h1{
   }
   .swiper-slide{
     height: 300px !important;
+  }
+  h1{
+    line-height: 40px;
   }
 }

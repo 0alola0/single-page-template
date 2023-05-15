@@ -7,13 +7,13 @@ const About = () => {
 
   return (
     <AnimatePresence>
-      <section className="mb-56">
+      <section className="mb-36">
         <motion.div
           ref={ref}
-          initial={{ opacity: 0, y: -50 }}
+          initial={{ opacity: 0, y: -20 }}
           animate={{
             opacity: inView ? 1 : 0,
-            y: inView ? 0 : 50,
+            y: inView ? 0 : 20,
             transition: { delay: 0.5, duration: 1 },
           }}
           exit={{ opacity: 0 }}
